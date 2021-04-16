@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~animate.css/animate.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto:wght@500&display=swap');
+
+h1, h2, h3, h4, h5, h6, span, div, section, article, aside {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.app-button {
+  border: none;
+  outline: none;
+  background-color: white;
+  box-shadow: 0 2px 5px -2px rgba(0,0,0,0.2);
+
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,15 @@
+.letter {
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  width: 40px;
+  height: 80px;
+  margin: 0 16px;
+  border-bottom: solid 3px #ff8c00;
+
+  &.transparent {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}

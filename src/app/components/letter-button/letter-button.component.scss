@@ -1,0 +1,15 @@
+button.letter-button {
+  font-size: 48px;
+  width: 56px;
+  margin: 4px;
+
+  &.fail {
+    background-color: #2f0202;
+    color: #b35454;
+  }
+
+  &.success {
+    background-color: #0b580b;
+    color: #88db88;
+  }
+}

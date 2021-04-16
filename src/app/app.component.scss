@@ -1,0 +1,71 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 18px;
+    color: #bfbfbf;
+  }
+
+  .wrong-choices-container {
+    margin-top: 48px;
+    height: 100px;
+
+    .x-mark-container {
+      height: 60px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+
+      .x-mark {
+        font-size: 48px;
+        margin: 0 8px;
+        color: #ff4343;
+      }
+    }
+  }
+
+  .word-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+  }
+
+  .letter-selection-container {
+    max-width: 600px;
+    min-width: 200px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .end-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+
+    .play-again-button {
+      padding: 8px 24px;
+      font-size: 30px;
+      background-color: white;
+      color: black;
+      border-radius: 50px;
+    }
+  }
+}

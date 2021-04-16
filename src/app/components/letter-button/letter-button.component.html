@@ -1,0 +1,6 @@
+<button class="letter-button app-button"
+        [disabled]="letterFail || letterSuccess || disabled"
+        [ngClass]="{'fail': letterFail, success: letterSuccess}"
+        (click)="letterClicked.emit(letter)">
+  {{letter}}
+</button>
