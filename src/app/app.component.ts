@@ -22,7 +22,6 @@ export class AppComponent implements OnInit {
   }
 
   get isGameOver() {
-    // console.log(this.gameStatus === 'win' || this.gameStatus === 'lose');
     return this.gameStatus === 'win' || this.gameStatus === 'lose';
   }
 
